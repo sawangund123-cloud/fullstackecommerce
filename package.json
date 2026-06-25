@@ -1,18 +1,22 @@
 {
-  "name": "shopnest",
+  "name": "shopnest-ecom-mern",
   "version": "1.0.0",
-  "author": "Shivansh Vasu",
-  "description": "Full-Stack MERN E-Commerce App",
+  "description": "<div align=\"center\">\r   <img src=\"https://cdn-icons-png.flaticon.com/512/3514/3514491.png\" alt=\"ShopNest Logo\" width=\"80\" />\r   <h1>ShopNest - Full-Stack MERN E-Commerce App</h1>\r   <p>A professionally engineered, full-stack E-commerce platform built strictly using modern standard React (CRA) on the frontend and Express/MongoDB on the backend.</p>\r </div>",
+  "main": "index.js",
   "scripts": {
-    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd frontend && npm install && npm run build",
-    "start": "cd backend && npm start",
-    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
-    "start:backend": "npm --prefix backend run dev",
-    "start:frontend": "npm --prefix frontend run dev",
-    "seed": "npm --prefix backend run seed"
+    "start": "cd backend && npm start"
   },
-  "dependencies": {
-    "concurrently": "^8.2.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawangund123-cloud/fullstackecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sawangund123-cloud/fullstackecommerce/issues"
+  },
+  "homepage": "https://github.com/sawangund123-cloud/fullstackecommerce#readme"
 }
